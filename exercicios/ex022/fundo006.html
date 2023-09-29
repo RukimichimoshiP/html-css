@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
@@ -14,11 +14,20 @@
             background-size: cover;
             /* Contain - Mostra 100% da imagem, mas não necessariamente vai cobrir a tela, somente manter a imagem como original
             Cover - Cobrir toda a tela, no qual pode picotar a imagem caso necessario */
+            background-attachment: fixed;
+            /*Scroll - É o padrão, aonde se o background-repeat estiver como repeat ou repeat-y a imagem de fundo ira scrolar junto da página
+            fixed - Aonde a imagem de fundo ficara fixa, acompanhando a tela quando escrolada*/
+
+            /* Shorthand - background
+                color > image > position > repeat > [size] (mas ainda não funciona) > attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center no-repeat fixed;
+            background-size: cover;
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -31,7 +40,16 @@
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sapiente enim eaque officia. Adipisci, veniam at deserunt animi minima assumenda harum voluptas repellat fugiat quos itaque quisquam ducimus porro est.
         Magnam delectus cupiditate aliquam perferendis, laborum fugiat odio explicabo dolore ducimus quaerat impedit natus, alias omnis labore voluptatibus consectetur expedita libero dignissimos. Quasi dolore, ex aspernatur architecto ut voluptate labore?
-        Porro excepturi repellat nisi minima, officia accusamus veniam nulla odio. Odit impedit officia, fugit, minima ratione, facere autem officiis commodi quibusdam consectetur aperiam inventore dolorum repellat minus vel porro distinctio.</p>
+        Porro excepturi repellat nisi minima, officia accusamus veniam nulla odio. Odit impedit officia, fugit, minima ratione, facere autem officiis commodi quibusdam consectetur aperiam inventore dolorum repellat minus vel porro distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sapiente, sequi libero nam soluta numquam quo totam praesentium ducimus delectus explicabo in accusamus suscipit alias enim. Enim consequatur quam delectus?
+        Dolor incidunt quas dignissimos nihil quia corrupti. Saepe deserunt minima doloremque veritatis? Cumque, libero nobis officiis iste consequuntur harum facere cum voluptatum rem placeat ducimus tempore ad repudiandae sint asperiores!
+        Obcaecati enim cupiditate repellat culpa recusandae sed praesentium officia distinctio perferendis autem? Cumque officia beatae porro consequuntur possimus earum inventore, pariatur praesentium doloribus molestiae dignissimos nam illo. Provident, quidem amet?
+        Hic minima maiores dignissimos natus enim ipsa ipsam alias minus ut, consequatur tempore ex fugiat, obcaecati esse. Ullam reiciendis, at error eveniet magni nemo libero earum odio explicabo, officia sit!
+        Quidem et sapiente voluptates quos tempora illum dolore tenetur accusamus exercitationem sed. Repellendus perspiciatis voluptatem commodi voluptatibus cum sed quia iure consectetur, dolorem minima pariatur. Aut odio similique itaque deserunt.
+        Quasi cupiditate quisquam labore. Fugit consectetur amet aliquid sint ex necessitatibus at quam voluptas ab illum harum, facere quaerat ipsa ipsum quis ut? Harum quae ipsa, minima pariatur ut magnam?
+        Eos aut doloribus perspiciatis quasi, eveniet veritatis rem nihil quis nostrum voluptatibus maxime et minus! Sed possimus ut tempora quis ratione eius voluptates eos officia! Nobis, fuga? Praesentium, voluptates natus?
+        Quibusdam, fugit aperiam, dolore maxime quas voluptatem officiis vero consequuntur iste sunt doloremque aut labore nobis, perspiciatis quos eos temporibus facere ex? Voluptates soluta iure enim ad quam in quas?
+        Corporis recusandae esse sunt facilis perferendis laudantium quia cum minus nostrum vero minima error quibusdam quas maxime officiis beatae, placeat optio id repellendus expedita fugit! Maxime fugiat incidunt iusto dolor!
+        Corporis ducimus vero nobis totam! Saepe nemo dolor, animi laudantium impedit eos temporibus consectetur, ipsa esse, sint enim placeat magni odit quia eligendi vero obcaecati qui. Reprehenderit facilis sunt magni?</p>
     </main>
 </body>
 </html>
